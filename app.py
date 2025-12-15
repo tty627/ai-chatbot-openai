@@ -3,7 +3,7 @@ import openai  # DeepSeek兼容OpenAI SDK，直接用
 
 # ====== DeepSeek 配置 ======
 openai.api_key = st.secrets["DEEPSEEK_API_KEY"]
-openai.base_url = "https://api.deepseek.com/v1"  # DeepSeek专属endpoint
+openai.base_url = "https://api.deepseek.com"  # DeepSeek专属endpoint
 
 st.set_page_config(page_title="TianYe's AI Chatbot", page_icon="🤖")
 
